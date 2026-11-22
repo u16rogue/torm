@@ -1,0 +1,10 @@
+[package]
+name = "torm"
+version = "0.1.0"
+edition = "2024"
+
+# run `./do lock` after changing these, package.nix reads Cargo.lock
+[dependencies]
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
