@@ -16,6 +16,7 @@
 !/.nyx-sbx/dev-hook.sh
 !/.nyx-sbx/share/
 
+!/examples/
 !/scripts/
 
 !/.ignore

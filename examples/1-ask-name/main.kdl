@@ -1,0 +1,15 @@
+form id="name_form" {
+    div flow="row" align-child="center" {
+        text "Name:"
+        input id="name" type="text" {
+        }
+    }
+}
+
+script as="bash" #"""
+if ! response="$(name_form | jq -r '.name')"; then
+    exit 1
+fi
+
+printf "hello there %s" "$response"
+"""#
