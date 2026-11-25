@@ -5,6 +5,7 @@ edition = "2024"
 
 # run `./do lock` after changing these, package.nix reads Cargo.lock
 [dependencies]
+anstyle = "1.0.14"
 kdl = "6.7.1"
 
 [lints.rust]

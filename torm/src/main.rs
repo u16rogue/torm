@@ -1,4 +1,5 @@
 use std::error::Error;
+use anstyle as _;
 use kdl as _;
 
 fn main() -> Result<(), Box<dyn Error>> {
